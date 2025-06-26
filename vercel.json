@@ -1,6 +1,11 @@
 {
   "rewrites": [
+    { "source": "/", "destination": "/index.html" },
     { "source": "/login", "destination": "/login.html" },
-    { "source": "/app", "destination": "/app.html" }
+    { "source": "/app", "destination": "/app.html" },
+    { "source": "/terms-of-service", "destination": "/terms-of-service.html" },
+    { "source": "/privacy-policy", "destination": "/privacy-policy.html" },
+    { "source": "/disclaimer", "destination": "/disclaimer.html" },
+    { "source": "/commercial-transaction-act", "destination": "/commercial-transaction-act.html" }
   ]
 } 
