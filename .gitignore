@@ -6,7 +6,7 @@
 .env.production.local
 
 # Configuration files with sensitive data
-config.js
+# config.js (temporarily commented out for deployment)
 
 # Dependencies
 node_modules/
