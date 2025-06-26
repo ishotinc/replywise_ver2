@@ -1,4 +1,4 @@
-# BeautyReply Pro 動作確認チェックリスト
+# ミレプ 動作確認チェックリスト
 
 ## 1. 初期設定の確認
 - [ ] config.jsにSupabaseのURLとキーが設定されている

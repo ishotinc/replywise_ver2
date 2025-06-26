@@ -10,9 +10,20 @@
     <!-- End Google Tag Manager -->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>BeautyReply Pro - ネガティブレビューを好感度の高い返信に変える自動返信システム</title>
+    <title>ミレプ - ネガティブレビューを好感度の高い返信に変える自動返信システム</title>
     <meta name="description" content="美容比較サイト向けの革新的な自動返信システム。ネガティブレビューをコピペするだけで、建設的で好感度の高い返信文を自動生成。14日間無料トライアル実施中。">
     <meta name="keywords" content="美容,レビュー返信,自動返信,カスタマーサポート,美容サイト運営">
+
+    <!-- HTMLの<head>内に追加 -->
+    <meta name="description" content="ミレプ - 美容業界向け公式レビュー返信システム">
+    <meta name="author" content="ミレプ Team">
+    <meta name="robots" content="index, follow">
+
+    <!-- 信頼性を示すメタタグ -->
+    <meta property="og:title" content="ミレプ">
+    <meta property="og:description" content="美容業界向けレビュー返信システム">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://replywise-ver2.vercel.app">
     
     <!-- Font Awesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
@@ -307,86 +318,6 @@
             line-height: 1.8;
         }
         
-        /* 料金セクション */
-        .pricing {
-            background: #f8f9fa;
-            text-align: center;
-        }
-        
-        .price-card {
-            max-width: 500px;
-            margin: 0 auto;
-            background: white;
-            border-radius: 30px;
-            padding: 50px;
-            box-shadow: 0 10px 40px rgba(0, 0, 0, 0.1);
-            position: relative;
-            overflow: hidden;
-        }
-        
-        .price-card::before {
-            content: '';
-            position: absolute;
-            top: 0;
-            left: 0;
-            right: 0;
-            height: 5px;
-            background: linear-gradient(90deg, #FF6B9D 0%, #6B4C9A 100%);
-        }
-        
-        .price-amount {
-            font-size: 3rem;
-            font-weight: 700;
-            color: #C44569;
-            margin-bottom: 10px;
-        }
-        
-        .price-amount span {
-            font-size: 1.5rem;
-            font-weight: 400;
-        }
-        
-        .price-period {
-            color: #666;
-            margin-bottom: 30px;
-        }
-        
-        .price-features {
-            list-style: none;
-            margin-bottom: 40px;
-        }
-        
-        .price-features li {
-            padding: 15px 0;
-            border-bottom: 1px solid #eee;
-            color: #333;
-        }
-        
-        .price-features li:last-child {
-            border-bottom: none;
-        }
-        
-        .price-features i {
-            color: #4CAF50;
-            margin-right: 10px;
-        }
-        
-        .trial-badge {
-            background: #FFD700;
-            color: #333;
-            padding: 10px 30px;
-            border-radius: 30px;
-            display: inline-block;
-            margin-bottom: 30px;
-            font-weight: 700;
-            animation: pulse 2s infinite;
-        }
-        
-        @keyframes pulse {
-            0% { transform: scale(1); }
-            50% { transform: scale(1.05); }
-            100% { transform: scale(1); }
-        }
         
         /* 最終CTAセクション */
         .final-cta {
@@ -731,9 +662,9 @@
         <div class="container">
             <div class="hero-content">
                 <h1>ネガティブレビューが<br>ファンを増やすチャンスに変わる</h1>
-                <p class="subtitle">BeautyReply Proは、美容比較サイトの運営者様向けに<br>AIが最適な返信文を自動生成する革新的なサービスです</p>
-                <a href="/login.html" class="cta-button">14日間無料で試してみる</a>
-                <p class="trial-note"><i class="fas fa-check-circle"></i> クレジットカード不要・即日利用開始</p>
+                <p class="subtitle">ミレプは、美容比較サイトの運営者様向けに<br>AIが最適な返信文を自動生成する革新的なサービスです</p>
+                <a href="/login.html" class="cta-button">無料で始める</a>
+                <p class="trial-note"><i class="fas fa-check-circle"></i> 完全無料・即日利用開始</p>
             </div>
         </div>
     </section>
@@ -771,7 +702,7 @@
     <!-- 解決策デモセクション -->
     <section class="demo">
         <div class="container">
-            <h2 class="section-title">BeautyReply Proが解決します</h2>
+            <h2 class="section-title">ミレプが解決します</h2>
             <div class="demo-container">
                 <div class="demo-box before">
                     <span class="demo-label">BEFORE</span>
@@ -805,7 +736,7 @@
     <!-- 特徴セクション -->
     <section class="features">
         <div class="container">
-            <h2 class="section-title">BeautyReply Proの特徴</h2>
+            <h2 class="section-title">ミレプの特徴</h2>
             <div class="feature-grid">
                 <div class="feature-card">
                     <div class="feature-icon">
@@ -839,40 +770,21 @@
         </div>
     </section>
     
-    <!-- 料金セクション -->
-    <section class="pricing" id="pricing">
-        <div class="container">
-            <h2 class="section-title">シンプルな料金プラン</h2>
-            <div class="price-card">
-                <div class="trial-badge">14日間無料トライアル</div>
-                <div class="price-amount">¥9,800<span>/月</span></div>
-                <p class="price-period">月額固定・追加料金なし</p>
-                <ul class="price-features">
-                    <li><i class="fas fa-check"></i> 返信生成無制限</li>
-                    <li><i class="fas fa-check"></i> 全ての機能が利用可能</li>
-                    <li><i class="fas fa-check"></i> 24時間サポート対応</li>
-                    <li><i class="fas fa-check"></i> 定期的なAIアップデート</li>
-                    <li><i class="fas fa-check"></i> いつでも解約可能</li>
-                </ul>
-                <a href="/login.html" class="cta-button">無料で始める</a>
-            </div>
-        </div>
-    </section>
     
     <!-- 最終CTAセクション -->
     <section class="final-cta">
         <div class="container">
-            <h2>今すぐBeautyReply Proを始めましょう</h2>
+            <h2>今すぐミレプを始めましょう</h2>
             <p>ネガティブレビューへの対応を、ビジネスチャンスに変える第一歩を</p>
-            <a href="/login.html" class="cta-button">14日間無料トライアルを開始</a>
-            <p class="guarantee"><i class="fas fa-shield-alt"></i> 安心の返金保証付き・いつでもキャンセル可能</p>
+            <a href="/login.html" class="cta-button">無料で始める</a>
+            <p class="guarantee"><i class="fas fa-shield-alt"></i> 完全無料・登録も簡単</p>
         </div>
     </section>
     
     <!-- フッター -->
     <footer>
         <div class="container">
-            <p>&copy; 2024 BeautyReply Pro. All rights reserved.</p>
+            <p>&copy; 2025 ミレプ. All rights reserved. | <a href="terms-of-service.html" style="color: white; text-decoration: underline;">利用規約</a> | <a href="privacy-policy.html" style="color: white; text-decoration: underline;">プライバシーポリシー</a> | <a href="disclaimer.html" style="color: white; text-decoration: underline;">免責事項</a> | <a href="commercial-transaction-act.html" style="color: white; text-decoration: underline;">特定商取引法に基づく表記</a></p>
         </div>
     </footer>
     
@@ -884,8 +796,8 @@
             </button>
             
             <div class="modal-header">
-                <h2 class="modal-title">BeautyReply Proを始める</h2>
-                <p class="modal-subtitle">14日間の無料トライアルをお試しください</p>
+                <h2 class="modal-title">ミレプを始める</h2>
+                <p class="modal-subtitle">完全無料でご利用いただけます</p>
             </div>
             
             <div class="tab-container">
@@ -942,14 +854,14 @@
                 </div>
                 
                 <button type="submit" class="form-submit">
-                    <span class="button-text">無料トライアルを開始</span>
+                    <span class="button-text">無料で登録</span>
                     <div class="loading-spinner"></div>
                 </button>
                 
                 <div class="auth-message" id="signupMessage"></div>
                 
                 <div class="divider">
-                    <span>登録することで利用規約に同意したものとみなされます</span>
+                    <span>登録することで<a href="terms-of-service.html" target="_blank" style="color: #C44569; text-decoration: underline;">利用規約</a>および<a href="privacy-policy.html" target="_blank" style="color: #C44569; text-decoration: underline;">プライバシーポリシー</a>に同意したものとみなされます</span>
                 </div>
             </form>
         </div>
@@ -998,7 +910,7 @@
         }, observerOptions);
         
         // アニメーション対象要素を監視
-        document.querySelectorAll('.problem-card, .feature-card, .price-card').forEach(el => {
+        document.querySelectorAll('.problem-card, .feature-card').forEach(el => {
             el.style.opacity = '0';
             observer.observe(el);
         });

@@ -1,7 +1,7 @@
 {
   "name": "beautyreply-pro",
   "version": "1.0.0",
-  "description": "BeautyReply Pro - ネガティブレビューを好感度の高い返信に変える自動返信システム",
+  "description": "ミレプ - ネガティブレビューを好感度の高い返信に変える自動返信システム",
   "main": "index.html",
   "scripts": {
     "setup": "node setup-env.js",
@@ -22,6 +22,6 @@
     "supabase",
     "ai"
   ],
-  "author": "BeautyReply Pro",
+  "author": "ミレプ",
   "license": "UNLICENSED"
 } 
