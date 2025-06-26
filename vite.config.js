@@ -1,6 +1,8 @@
 import { defineConfig } from 'vite'
 
 export default defineConfig({
+  root: 'public',
+  
   // Enable environment variable replacement
   define: {
     // This will replace process.env.VITE_SUPABASE_URL with the actual value
@@ -16,7 +18,7 @@ export default defineConfig({
   
   // Build configuration
   build: {
-    outDir: 'dist',
+    outDir: '../dist',
     assetsDir: 'assets',
     sourcemap: true
   }
